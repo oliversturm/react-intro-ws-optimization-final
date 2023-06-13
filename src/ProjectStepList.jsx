@@ -22,4 +22,5 @@ const ProjectStepList = ({ steps, addStep }) => {
   );
 };
 
-export default memo(ProjectStepList);
+const ProjectStepListMemo = memo(ProjectStepList);
+export default ProjectStepListMemo;
